@@ -10,7 +10,8 @@ int main() {
 	SetConsoleOutputCP(1251);
 
 	ContactBook book; 
-	
+
+	std::cout << "This your contact book\n";
 	UserHandler user_handler{&book};
 	while (true) {
 		user_handler.showStandardLabel();
