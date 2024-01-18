@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="commands.cpp" />
+    <ClCompile Include="contact_book.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="project.cpp" />
   </ItemGroup>
