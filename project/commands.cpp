@@ -36,7 +36,7 @@ public:
 		execute();
 	}
 	Command(ContactBook* contact_book) : contact_book(contact_book) {}
-	Command() {}
+	Command() { contact_book = nullptr; }
 	virtual ~Command() {};
 };
 
