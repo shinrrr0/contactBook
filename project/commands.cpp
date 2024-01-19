@@ -91,7 +91,7 @@ private:
 		std::cout << std::endl;
 		std::cout << "/changeContact - allows you to change contact parameters";
 		std::cout << std::endl;
-		std::cout << "/deleteContact - allows you to delete contact parameters";
+		std::cout << "/deleteContact - allows you to delete contact";
 		std::cout << std::endl;
 		std::cout << "/createContact - allows you to create a new contact parameters";
 		std::cout << std::endl;
@@ -271,11 +271,11 @@ private:
 			std::cin >> surname;
 		}
 
-		std::cout << "Enter new birthdate: ";
+		std::cout << "Enter new birthdate (example: 23.12.2001): ";
 		std::cin >> birthdate;
 		std::cout << "Enter new phone number: ";
 		std::cin >> phone_number;
-		std::cout << "Enter new phone email: ";
+		std::cout << "Enter new email (abc@gmail.com): ";
 		std::cin >> email;
 
 		contact_book->createNewContact(name, surname, birthdate, phone_number, email);
